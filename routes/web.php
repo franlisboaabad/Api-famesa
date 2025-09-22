@@ -16,3 +16,28 @@
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });
+
+/*
+|--------------------------------------------------------------------------
+| HGLevel API Routes
+|--------------------------------------------------------------------------
+|
+| Rutas para recibir y procesar datos de HGLevel
+|
+*/
+
+// Endpoint para recibir datos de HGLevel
+$router->post('/api/hglevel/receive', 'HGLevelController@receiveData');
+
+// Endpoints para consultar datos
+$router->get('/api/contacts', 'HGLevelController@getContacts');
+$router->get('/api/contacts/{contactId}', 'HGLevelController@getContact');
+
+// Endpoint de prueba
+$router->get('/api/test', function () {
+    return response()->json([
+        'message' => 'API funcionando correctamente',
+        'timestamp' => date('Y-m-d H:i:s'),
+        'version' => '1.0.0'
+    ]);
+});

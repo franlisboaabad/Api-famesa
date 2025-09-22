@@ -1,0 +1,264 @@
+[
+    {
+        "contact_id": "5udcmz6lbnpGLKzgHQ7I",
+        "first_name": "OMAR",
+        "last_name": "TEST 101",
+        "full_name": "OMAR TEST 101",
+        "email": "omarjol+test101@gmail.com",
+        "phone": "+51937437110",
+        "tags": "[whatsapp] - phone device is disconnected",
+        "address1": "CASA DEL ARBOL TEST 101",
+        "city": "Lima",
+        "state": "Lima",
+        "country": "PE",
+        "timezone": "America/Lima",
+        "date_created": "2025-09-22T02:52:03.513Z",
+        "contact_source": "FAMESA 2.0",
+        "full_address": "CASA DEL ARBOL TEST 101, Lima Lima ",
+        "contact_type": "lead",
+        "location": {
+            "name": "ANILLO02",
+            "address": "Guatemala",
+            "city": "Guatemala",
+            "state": "",
+            "country": "GT",
+            "postalCode": "03008",
+            "fullAddress": "Guatemala, Guatemala 03008",
+            "id": "gPO6FiXFjyul3qojXQKh"
+        },
+        "invoice": {
+            "_data": {
+                "status": "sent",
+                "discount": {
+                    "type": "percentage",
+                    "value": 0
+                },
+                "liveMode": true,
+                "deleted": false,
+                "amountPaid": 0,
+                "attachments": [],
+                "_id": "68d0bc2255e1f5053bbf27e4",
+                "altId": "gPO6FiXFjyul3qojXQKh",
+                "altType": "location",
+                "companyId": "ajzPdxl2zNkXemIMSbji",
+                "name": "New Invoice",
+                "businessDetails": {
+                    "logoUrl": "https://storage.googleapis.com/msgsndr/gPO6FiXFjyul3qojXQKh/media/68b11c810b7a451ec1466b40.webp",
+                    "name": "FAMESA | LA MUEBLERÍA",
+                    "address": {
+                        "addressLine1": "Guatemala",
+                        "city": "Guatemala",
+                        "state": "",
+                        "countryCode": "GT",
+                        "postalCode": "03008"
+                    },
+                    "phoneNo": "+50242308272",
+                    "website": "https://famesacenter.com.gt/",
+                    "customValues": []
+                },
+                "invoiceNumber": "000010",
+                "currency": "GTQ",
+                "contactDetails": {
+                    "id": "5udcmz6lbnpGLKzgHQ7I",
+                    "name": "OMAR TEST 101",
+                    "phoneNo": "+51937437110",
+                    "email": "omarjol+test101@gmail.com",
+                    "additionalEmails": [],
+                    "address": {
+                        "addressLine1": "CASA DEL ARBOL TEST 101",
+                        "city": "Lima",
+                        "state": "Lima",
+                        "countryCode": "PE"
+                    }
+                },
+                "issueDate": "2025-09-21T06:00:00.000Z",
+                "dueDate": "2025-10-06T05:59:59.999Z",
+                "termsNotes": "",
+                "invoiceItems": [
+                    {
+                        "taxes": [],
+                        "taxInclusive": true,
+                        "_id": "68d0bc2255e1f57260bf27e5",
+                        "productId": "68c1b9420dc9b210c9b4761e",
+                        "priceId": "68c1b9430dc9b2a2c9b4763d",
+                        "currency": "GTQ",
+                        "name": "COMBO 2 PILOW CONFORT Y CABECERA",
+                        "qty": 1,
+                        "amount": 1999,
+                        "description": "<p>CAMA 2 EURO ULTRA CONFORT Y CABECERA BRANDS</p>"
+                    },
+                    {
+                        "taxes": [],
+                        "taxInclusive": true,
+                        "_id": "68d0bc2255e1f5880dbf27e6",
+                        "productId": "68c1b9420dc9b2de0cb4761c",
+                        "priceId": "68c1b9430dc9b202e1b47636",
+                        "currency": "GTQ",
+                        "name": "COMBO ROPERO DE 3 CUERPOS",
+                        "qty": 2,
+                        "amount": 4599,
+                        "description": "<p>Ropero de 3 cuerpos +  cabecera +  cama y marquesa</p>"
+                    }
+                ],
+                "total": 11197,
+                "invoiceTotal": 11197,
+                "amountDue": 11197,
+                "title": "PEDIDO REALIZADO",
+                "automaticTaxesCalculated": false,
+                "tipsConfiguration": {
+                    "tipsPercentage": [],
+                    "tipsEnabled": false
+                },
+                "invoiceNumberPrefix": "ORD-",
+                "paymentMethods": {
+                    "stripe": {
+                        "enableBankDebitOnly": false
+                    }
+                },
+                "opportunityDetails": null,
+                "configuration": {
+                    "precision": 4
+                },
+                "lateFeesConfiguration": {
+                    "charges": [],
+                    "enable": false,
+                    "type": "percentage",
+                    "grace": {
+                        "interval": "day",
+                        "intervalCount": 10
+                    },
+                    "frequency": {
+                        "interval": "month",
+                        "intervalCount": 1
+                    },
+                    "value": 1,
+                    "totalLateFees": 0,
+                    "collectedLateFees": 0
+                },
+                "syncDetails": [],
+                "tipsReceived": [],
+                "externalTransactions": [],
+                "createdAt": "2025-09-22T03:01:54.117Z",
+                "updatedAt": "2025-09-22T03:01:59.967Z",
+                "__v": 0,
+                "manualStatusTransitions": {
+                    "sent": false
+                },
+                "sentAt": "2025-09-22T03:01:59.659Z",
+                "sentBy": "xf1MdXTT2T8M5i5XiGSg",
+                "sentFrom": {
+                    "fromName": "FAMESA | LA MUEBLERÍA",
+                    "fromEmail": "notificaciones@famesacenter.com.gt"
+                },
+                "sentTo": {
+                    "email": [
+                        "omarjol+test101@gmail.com"
+                    ],
+                    "emailCc": [],
+                    "emailBcc": [],
+                    "phoneNo": [
+                        "+51937437110"
+                    ]
+                },
+                "updatedBy": "xf1MdXTT2T8M5i5XiGSg",
+                "remindersConfiguration": {
+                    "reminderSettings": {
+                        "reminders": [
+                            {
+                                "startTime": "8:00 AM",
+                                "endTime": "6:00 PM",
+                                "timezone": "contactTZ",
+                                "reminderName": "Reminder 1",
+                                "enabled": false,
+                                "maxReminders": 1,
+                                "intervalType": "daily",
+                                "reminderTime": "before",
+                                "reminderInvoiceCondition": "invoice_overdue",
+                                "reminderNumber": 3,
+                                "emailTemplate": "default",
+                                "smsTemplate": "default",
+                                "emailSubject": "[{{ invoice.company.name }}] Friendly Reminder: Payment Due Soon for Invoice #[{{ invoice.number }}]",
+                                "reminderId": "adb3ab5d-ba36-4634-b88e-079975894596"
+                            }
+                        ],
+                        "defaultEmailTemplateId": ""
+                    }
+                },
+                "meta": {},
+                "totalSummary": {
+                    "subTotal": 11197,
+                    "discount": 0,
+                    "tax": 0
+                },
+                "voidAction": {
+                    "allow": true
+                },
+                "traceId": "16340947663091151"
+            },
+            "_id": "68d0bc2255e1f5053bbf27e4",
+            "url": "https://link.fastpaydirect.com/l/mZ-uyBpu2",
+            "sender_name": "Omar Obregon",
+            "sender_email": "omarjol@gmail.com"
+        },
+        "workflow": {
+            "id": "3eb0a193-6c0a-467a-abed-4e89998fe1b5",
+            "name": "ENVÍO DE FACTURAS (PEDIDOS) A SAP"
+        },
+        "triggerData": {},
+        "contact": {
+            "attributionSource": {
+                "sessionSource": "Direct traffic",
+                "url": "https://famesacenter.com.gt/",
+                "campaign": null,
+                "utmSource": null,
+                "utmMedium": null,
+                "utmContent": null,
+                "utmTerm": null,
+                "utmKeyword": null,
+                "utmMatchtype": null,
+                "referrer": null,
+                "gclid": null,
+                "fbp": "fb.2.1758083400776.41287784758017808",
+                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+                "ip": "2001:1388:91:f418:b4df:db11:70b4:fc9b",
+                "gaClientId": null,
+                "gaSessionId": null,
+                "medium": "order_form",
+                "mediumId": "53c8800c-613d-448b-a5a2-7caa33c896d0",
+                "adName": null,
+                "adGroupId": null,
+                "adId": null,
+                "gbraid": null,
+                "wbraid": null
+            },
+            "lastAttributionSource": {
+                "sessionSource": "Direct traffic",
+                "url": "https://famesacenter.com.gt/checkout",
+                "utmSource": null,
+                "utmMedium": null,
+                "utmContent": null,
+                "utmTerm": null,
+                "utmKeyword": null,
+                "utmMatchtype": null,
+                "referrer": null,
+                "gclid": null,
+                "fbp": "fb.2.1758083400776.41287784758017808",
+                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+                "ip": "2001:1388:91:f418:b4df:db11:70b4:fc9b",
+                "gaClientId": null,
+                "gaSessionId": null,
+                "medium": "order_form",
+                "mediumId": "53c8800c-613d-448b-a5a2-7caa33c896d0",
+                "adName": null,
+                "adId": null,
+                "gbraid": null,
+                "wbraid": null
+            }
+        },
+        "attributionSource": {},
+        "customData": {
+            "userName": "",
+            "userEmail": ""
+        }
+    }
+]
