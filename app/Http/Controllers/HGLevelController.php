@@ -51,9 +51,17 @@ class HGLevelController extends Controller
 
             DB::beginTransaction();
 
-            foreach ($data as $contactData) {
-                $processedContact = $this->processContactData($contactData);
+            // Si los datos vienen como un objeto individual, convertirlo a array
+            if (isset($data['contact_id'])) {
+                // Es un objeto individual, procesarlo directamente
+                $processedContact = $this->processContactData($data);
                 $processedContacts[] = $processedContact;
+            } else {
+                // Es un array de objetos, procesar cada uno
+                foreach ($data as $contactData) {
+                    $processedContact = $this->processContactData($contactData);
+                    $processedContacts[] = $processedContact;
+                }
             }
 
             DB::commit();
