@@ -22,11 +22,28 @@ class HGLevelController extends Controller
         try {
             $data = $request->all();
 
+            // Log para debug
+            Log::info('Datos recibidos:', [
+                'type' => gettype($data),
+                'content' => $data
+            ]);
+
+            // Si los datos vienen como string JSON, parsearlos
+            if (is_string($data)) {
+                $data = json_decode($data, true);
+            }
+
+            // Si aún no es array, intentar obtener el contenido raw
+            if (!is_array($data)) {
+                $rawData = $request->getContent();
+                $data = json_decode($rawData, true);
+            }
+
             // Validar que sea un array
             if (!is_array($data)) {
                 return response()->json([
                     'success' => false,
-                    'message' => 'Los datos deben ser un array'
+                    'message' => 'Los datos deben ser un array JSON válido'
                 ], 400);
             }
 
